@@ -1,0 +1,39 @@
+.button{
+    color:red;
+    background-color: aliceblue;
+}
+#messages  {
+    list-style-type: none;
+    margin: 2rem;
+}
+#messages > li{
+    padding: 0.5rem;
+    border-radius: 10%;
+}
+#messages > li:nth-child(odd){
+background: rgb(234, 234, 241);
+}
+.form{
+    background: rgba(0, 0, 0, 0.15);
+     padding: 0.25rem; 
+     position: fixed; 
+     bottom: 0; 
+     left: 0; 
+     right: 0; 
+     display: flex; 
+     height: 3rem; 
+     box-sizing: border-box; 
+     backdrop-filter: blur(10px); 
+
+}
+#input{
+    border: none; 
+    padding: 0 1rem; 
+    flex-grow: 1; 
+    border-radius: 2rem; 
+    margin: 0.25rem; 
+}
+.name{
+    color: rgb(95, 10, 175);
+    font-weight:bold ;
+}
